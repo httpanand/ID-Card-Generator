@@ -2,4 +2,4 @@
 <h3 align="center"> <i> ID CARD GENERATOR </i>  is a tool which can be used to generate id cards automatically according to user inputs . </h3>
 
 <h6> PREVIEW </h6>
-  
+  <img src="preview.png">
