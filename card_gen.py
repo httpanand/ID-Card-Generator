@@ -16,7 +16,7 @@ image = Image.new('RGB', (1000, 600), (255, 255, 255))
 image = ImageOps.expand(image,border=10,fill='black')
 draw = ImageDraw.Draw(image)
 
-font = ImageFont.truetype(r'font\monalisa.ttf', 90)
+font = ImageFont.truetype(r'Font\monalisa.ttf', 90)
 
 heading = str('COMPANY')
 draw.text((320, 120),heading,(0,0,0),font=font)
@@ -25,7 +25,7 @@ name = str(input('Enter name :\n'))
 dob = str(input('Enter DOB (DD/MM/YY) :\n'))
 age = str(input('Enter age :\n'))
 
-font2 = ImageFont.truetype(r'font\monalisa.ttf', 50)
+font2 = ImageFont.truetype(r'Font\monalisa.ttf', 50)
 draw.text((350,300),'Name :',(0,0,0),font=font2)
 draw.text((570,300),name,(0,0,0),font=font2)
 
